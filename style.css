@@ -9,23 +9,24 @@ body{
 }
 a{
     text-decoration: none;
+    color: #1F2937;
 }
 .header img{
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 250px;
 }
 .header{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     background-color: #1F2937;
-    padding-top: 20px;
-    
+    padding-top: 20px;   
 }
 
 
-.top-links a{
-    color: #F9FAF8;
+
+.top-links ul li svg{
+    fill: #F9FAF8;
 }
 .top-links ul{
     list-style-type: none;
@@ -51,7 +52,7 @@ ul.top-links a:hover{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 30px 0px 50px 0px;
+    padding: 20px 0px 50px 0px;
     gap: 20px;
 }
 
@@ -77,12 +78,12 @@ ul{
     color: #F9FAF8;
 }
 .hero-button{
-    border-radius: 8%;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #3882F6;
-    flex: 1 1 100px;
+    flex: 1 1 90px;
     border: 0;
 }
 .but{
@@ -104,27 +105,36 @@ ul{
 .my-work{
     display: flex;
     gap: 30px;
+    align-items: flex-end;
 }
 
 .my-work-header{
     font-weight: bolder;
     color: #1F2937;
     font-size: 36px;
+    padding-top: 20px;
 }
 
 .mid-button{
-    border-radius: 12%;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF;
     border-color: #3882F6;
-    padding: 50px;
+    flex: 2 1 100px;
+    padding: 0;
+    border: 0;
+}
+.work-item{
+    display: flex;
+    
 }
 
 .mid-button a img{
-    width: 50px;
-    height: 50px;
+    width: 190px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .mid-button a{
@@ -135,14 +145,17 @@ ul{
     font-size: 16px;
     font-weight: 100;
     color: #1F2937;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .project{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
+
 
 .mid-bottom-section
 {
@@ -174,4 +187,54 @@ ul{
     padding-bottom: 100px;
     color: #1F2937;
     font-weight: bolder;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1F2937;
+    flex: 1 1 250px;
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-extras{
+    background-color: #3882F6;
+    display: flex;
+    padding: 20px 80px;
+    flex: 2 1 10px;
+    gap: 150px;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+.contact{
+    font-weight: 900;
+    font-size: 24px;
+    color: #FFFFFF; 
+}
+
+.subtitle{
+    font-weight: 100;
+    font-size: 16px;
+    color: #1F2937;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    border-color: #FFFFFF;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+
+.sign-up a{
+    color: #F9FAF8;
+    font-weight: 700;
+    
 }
