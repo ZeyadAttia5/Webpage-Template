@@ -1,3 +1,3 @@
 # Landing Page
 
-This is just a template for a landing page.
+This is just a template for a webpage.
